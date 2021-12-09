@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.TC03_SelectWriter">
+        <methods>
+          <include name="Driversetup"/>
+          <include name="close"/>
+          <include name="ClickWriter"/>
+        </methods>
+      </class> <!-- testcases.TC03_SelectWriter -->
+      <class name="testcases.TC05_AddToCart">
+        <methods>
+          <include name="Driversetup"/>
+          <include name="SelectfromDropdown"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.TC05_AddToCart -->
+      <class name="testcases.TC04_SelectfromDropdown">
+        <methods>
+          <include name="SelectfromDropdown"/>
+          <include name="Driversetup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.TC04_SelectfromDropdown -->
+      <class name="testcases.TC02_VisitWriter">
+        <methods>
+          <include name="Driversetup"/>
+          <include name="ClickMenu"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.TC02_VisitWriter -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

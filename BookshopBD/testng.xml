@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BookshopBD">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Project.BookshopBD.AppTest"/>
+      <class name="testcases.TC01_VisitSite"/>
+      <class name="testcases.TC02_VisitWriter"/>
+      <class name="testcases.TC03_SelectWriter"/>
+      <class name="testcases.TC04_SelectfromDropdown"/>
+      <class name="testcases.TC06_ClickOrder"/>
+      <class name="testcases.TC05_AddToCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- BookshopBD -->
